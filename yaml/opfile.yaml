@@ -1,0 +1,21 @@
+apiVersion: a1
+kind: Component
+metadata:
+  name: BCMSv1.0_3.6.6
+  namespace: default
+  description: BCMSv1.0 3.6.6
+spec:
+  type: library
+  lifestyle: production
+  owner: external
+---
+apiVersion: a1
+kind: Component
+metadata:
+  name: commons-lang3_3.6
+  namespace: default
+  description: commons-lang3 3.6
+spec:
+  type: library
+  lifestyle: production
+  owner: external

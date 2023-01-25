@@ -1,0 +1,14 @@
+apiVersion: a1
+kind: Component
+metadata:
+  name: RIWEB
+  description: Reporting
+  links:
+   - url: ht
+     title: t
+     icon: i
+spec:
+  type: website
+  dependsOn:
+    - Component: default/BCMSv1.0_3.6.6
+    - Component: default/commons-lang3_3.6
